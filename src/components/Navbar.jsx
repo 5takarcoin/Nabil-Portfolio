@@ -1,13 +1,11 @@
-import { FaPhone } from "react-icons/fa6";
-import { FcAbout } from "react-icons/fc";
-import { GrProjects } from "react-icons/gr";
 import { NavLink } from "./builders/NavLink";
+import { RiFileUserFill, RiFolderVideoFill, RiPhoneFill } from "react-icons/ri";
 
 export const Navbar = () => {
   const links = [
-    { link: "About", to: "#about", icon: <FcAbout /> },
-    { link: "Projects", to: "#projects", icon: <GrProjects /> },
-    { link: "Contact", to: "#contact", icon: <FaPhone /> },
+    { link: "About", to: "#about", icon: <RiFileUserFill /> },
+    { link: "Projects", to: "#projects", icon: <RiFolderVideoFill /> },
+    { link: "Contact", to: "#contact", icon: <RiPhoneFill /> },
   ];
 
   return (

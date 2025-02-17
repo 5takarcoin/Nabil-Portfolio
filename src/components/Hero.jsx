@@ -12,7 +12,7 @@ export const Hero = () => {
         </p>
         <a
           href="#work"
-          className="inline-block bg-blue-200 hover:bg-blue-700 text-black font-semibold py-3 px-8 rounded-lg transition duration-300"
+          className="inline-block bg-blue-200 hover:bg-blue-300 text-black font-semibold py-3 px-8 rounded-lg transition duration-300"
         >
           View My Work
         </a>
