@@ -4,24 +4,20 @@ import { RiFileUserFill, RiFolderVideoFill, RiPhoneFill } from "react-icons/ri";
 export const Navbar = () => {
   const links = [
     { link: "About", to: "#about", icon: <RiFileUserFill /> },
-    { link: "Projects", to: "#projects", icon: <RiFolderVideoFill /> },
+    { link: "Works", to: "#projects", icon: <RiFolderVideoFill /> },
     { link: "Contact", to: "#contact", icon: <RiPhoneFill /> },
   ];
 
   return (
-    <div className="z-100 absolute p-12  top-0 right-0 w-[200px]">
-      <div className="flex flex-col items-center gap-4 shadow-md rounded-xl h-full w-28 bg-blue-200">
-        <span></span>
-        {links.map((li, i) => {
-          const { link, to, icon } = li;
-          return (
-            <NavLink key={i} link={link} to={to}>
-              {icon}
-            </NavLink>
-          );
+    <div className="p-4 flex gap-4 items-center font-one rounded-lg w">
+      <div>
+        <p className="text-3xl">TAWHID KHAN</p>
+      </div>
+      <div className="h-[2px] rounded-full flex-1 bg-black/70"></div>
+      <div className="flex gpa-2 text-white bg-black/70 p-4 rounded-lg gap-4">
+        {links.map((l, i) => {
+          return <NavLink key={i} link={l.link} to={l.to} />;
         })}
-
-        <span></span>
       </div>
     </div>
   );

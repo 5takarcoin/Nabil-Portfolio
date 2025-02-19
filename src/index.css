@@ -1,1 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap");
+@font-face {
+  font-family: Actu;
+  src: url(../src/assets/Actu-d9oB7.otf);
+}
+
 @import "tailwindcss";
+
+/* @theme {
+  --color-bgbg: #1f2833;
+  --color-txtx: #66fcf1;
+  --color-tx2: #c5c6c7;
+} */
+
+@theme {
+  --color-bgbg: #023535;
+  --color-txtx: #0fc2c0;
+  --color-tx2: #c5c6c7;
+  --font-one: "Belanosima", serif;
+  --font-two: "Actu", serif;
+}
