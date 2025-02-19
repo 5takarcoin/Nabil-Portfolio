@@ -1,3 +1,5 @@
+import hero from "../assets/image.png";
+
 export const Hero = () => {
   return (
     <main>
@@ -5,10 +7,10 @@ export const Hero = () => {
         <p>Tiny edits, big impact. Crafting stories one frame at a time.</p>
       </section>
 
-      <section>
-        <div className="font-two text-6xl">
-          <p className="flex items-center gap-2">
-            Creative
+      <section className="flex justify-between p-4 gap-4 items-center">
+        <div className="flex flex-col gap-4 font-two text-6xl">
+          <p className="flex items-center gap-4">
+            <span>Creative</span>
             <span>
               <svg
                 width="36"
@@ -27,8 +29,8 @@ export const Hero = () => {
               </svg>
             </span>
           </p>
-          <p className="flex items-center gap-2">
-            Dynamic
+          <p className="flex items-center gap-4">
+            <span>Dynamic</span>
             <span>
               <svg
                 width="36"
@@ -50,8 +52,8 @@ export const Hero = () => {
               </svg>
             </span>
           </p>
-          <p className="flex items-center gap-2">
-            Versatile
+          <p className="flex items-center gap-4">
+            <span>Versatile</span>
             <span>
               <svg
                 width="36"
@@ -78,8 +80,8 @@ export const Hero = () => {
             </span>
           </p>
         </div>
-        <div>
-          <img src="" alt="" />
+        <div className="w-3/4">
+          <img src={hero} alt="" />
         </div>
       </section>
 

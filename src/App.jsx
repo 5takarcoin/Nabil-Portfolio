@@ -18,9 +18,9 @@ function App() {
       <Contact />
       <Footer />
       <Cover />
-      <button className="absolute w-full bottom-0 text-white text-4xl">
+      {/* <button className="absolute w-full bottom-0 text-white text-4xl">
         <FaArrowDown className="m-auto mb-16" />
-      </button>
+      </button> */}
     </>
   );
 }

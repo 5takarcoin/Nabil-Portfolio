@@ -3,8 +3,8 @@ import { RiFileUserFill, RiFolderVideoFill, RiPhoneFill } from "react-icons/ri";
 
 export const Navbar = () => {
   const links = [
-    { link: "About", to: "#about", icon: <RiFileUserFill /> },
     { link: "Works", to: "#projects", icon: <RiFolderVideoFill /> },
+    { link: "About", to: "#about", icon: <RiFileUserFill /> },
     { link: "Contact", to: "#contact", icon: <RiPhoneFill /> },
   ];
 
