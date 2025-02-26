@@ -18,7 +18,7 @@ export const About = () => {
           />
         ))}
       </div>
-      <div className="h-90 flex gap-4 px-4 z-10">
+      <div className="flex flex-col md:flex-row gap-4 px-4 z-10">
         <OneProject cool={cool} />
         <OneProject cool={cool2} />
         <OneProject cool={cool3} />
