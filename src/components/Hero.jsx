@@ -156,9 +156,8 @@ export const Hero = () => {
 
       <section className="bg-black/20 rounded-4xl text-base md:text-xl p-4 mx-4 text-center font-one">
         <p>
-          Product Designer with 13 years of experience, focused on creating
-          functional and user-centered digital products with visually stunning
-          designs.
+          With 5 years of experience, I transform raw footage into captivating
+          stories—bringing visions to life, one frame at a time.
         </p>
       </section>
     </main>

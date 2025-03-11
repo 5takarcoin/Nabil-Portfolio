@@ -11,6 +11,7 @@ function App() {
       {/* <div className="absolute bgholder -z-30 h-full w-full"></div> */}
       <div className="max-w-[1024px] m-auto ">
         {/* <div className="absolute blurry bg-white -z-30 h-full w-full"></div> */}
+
         <Navbar />
         <Hero />
         <About />
@@ -24,5 +25,9 @@ function App() {
     </div>
   );
 }
+// To do
+// Change description
+// Make gifs for all
+// Resume and Social Links
 
 export default App;

@@ -1,7 +1,7 @@
 import works from "../assets/works.svg";
 import { OneProject } from "./builders/OneProject";
 
-import cool from "../assets/cool.png";
+import cool from "../assets/giphy.gif";
 import cool2 from "../assets/cool2.jpeg";
 import cool3 from "../assets/cool3.jpeg";
 

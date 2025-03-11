@@ -178,7 +178,7 @@ export const Contact = () => {
             id="contact"
             className="lg:flex-[2] lg:p-12 font-one flex flex-col gap-4 py-8 px-8 bg-[#cccccc] rounded-2xl"
           >
-            <h3 className="text-lg lg:text-2xl">Get in touch</h3>
+            <h3 className="text-lg lg:text-2xl lg:text-center">Get in touch</h3>
             <div className="flex lg:flex-col justify-between lg:justify-around lg:mt-8 items-center  h-full">
               <div className="flex gap-4">
                 <button className="hover:text-[#aaaaaa] h-10 w-10 text-3xl relative  text-[#cccccc]">
