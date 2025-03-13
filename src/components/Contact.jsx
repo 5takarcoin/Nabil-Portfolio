@@ -5,6 +5,7 @@ import {
 } from "react-icons/si";
 import about from "../assets/about.svg";
 import dp from "../assets/beka.png";
+import res from "../assets/resume.pdf";
 import { FiDownload } from "react-icons/fi";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { FaTwitter } from "react-icons/fa";
@@ -169,9 +170,10 @@ export const Contact = () => {
           >
             <h3 className="text-lg lg:text-2xl">My Background</h3>
             <p className="text-base lg:text-xl">
-              Product Designer with 13 years of experience, focused on creating
-              functional and user-centered digital products with visually
-              stunning designs. Aro kichu hobe random shits eda oda lorem ipsem.
+              Creative video editor specializing in stock footage and dynamic
+              storytelling. Skilled in Premiere Pro for video editing and After
+              Effects for motion graphics. Passionate about creating visually
+              compelling content for brands and creators.
             </p>
           </div>
           <div
@@ -180,7 +182,7 @@ export const Contact = () => {
           >
             <h3 className="text-lg lg:text-2xl lg:text-center">Get in touch</h3>
             <div className="flex lg:flex-col justify-between lg:justify-around lg:mt-8 items-center  h-full">
-              <div className="flex gap-4">
+              <div className="flex gap-4 opacity-30">
                 <button className="hover:text-[#aaaaaa] h-10 w-10 text-3xl relative  text-[#cccccc]">
                   <span className="absolute h-full flex items-center justify-center top-0 w-full bg-black rounded-full overflow-hidden">
                     <TiSocialLinkedin />
@@ -199,13 +201,23 @@ export const Contact = () => {
                   </span>
                 </button>
               </div>
-
+              {/* 
               <button className="hover:text-[#dddddd] flex gap-2 items-center bg-black rounded-full py-2 px-8 text-white">
                 <span>Resume</span>
                 <span>
                   <FiDownload />
                 </span>
-              </button>
+              </button> */}
+              <a
+                className="hover:text-[#dddddd] cursor-pointer flex gap-2 items-center bg-black rounded-full py-2 px-8 text-white"
+                href={res}
+                download={"Tawhid Khan.pdf"}
+              >
+                <span>Resume</span>
+                <span>
+                  <FiDownload />
+                </span>
+              </a>
             </div>
           </div>
         </div>

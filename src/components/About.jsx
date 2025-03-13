@@ -1,9 +1,11 @@
 import works from "../assets/works.svg";
 import { OneProject } from "./builders/OneProject";
 
-import cool from "../assets/giphy.gif";
-import cool2 from "../assets/cool2.jpeg";
-import cool3 from "../assets/cool3.jpeg";
+import cool from "../assets/bla.gif";
+import cool2 from "../assets/rc.gif";
+import cool3 from "../assets/lofo.gif";
+import cool4 from "../assets/doc.gif";
+import cool5 from "../assets/ali.gif";
 
 export const About = () => {
   return (
@@ -18,10 +20,32 @@ export const About = () => {
           />
         ))}
       </div>
-      <div className="flex flex-col md:flex-row gap-4 px-4 z-10">
-        <OneProject cool={cool} />
-        <OneProject cool={cool2} />
-        <OneProject cool={cool3} />
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-4 z-10">
+        <OneProject
+          cool={cool}
+          url={"https://www.youtube.com/shorts/PT3A7uqspaw"}
+          desc="Shorts and Reels"
+        />
+        <OneProject
+          cool={cool2}
+          url={"https://youtu.be/pPxh4Kw32co"}
+          desc="Motion Graphics"
+        />
+        <OneProject
+          cool={cool3}
+          url={"https://youtu.be/08VkZtxItPM"}
+          desc="Long form sit down video"
+        />
+        <OneProject
+          cool={cool4}
+          url={"https://youtu.be/Qf-LHtRhW7Q"}
+          desc="Documentary style"
+        />
+        <OneProject
+          cool={cool5}
+          url={"https://www.youtube.com/shorts/RoLzUktBQ_Q"}
+          desc="Ali Abdal paper style"
+        />
       </div>
 
       <div className="h-10"></div>

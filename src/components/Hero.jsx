@@ -156,8 +156,8 @@ export const Hero = () => {
 
       <section className="bg-black/20 rounded-4xl text-base md:text-xl p-4 mx-4 text-center font-one">
         <p>
-          With 5 years of experience, I transform raw footage into captivating
-          stories—bringing visions to life, one frame at a time.
+          I transform raw footage into captivating stories—bringing visions to
+          life, one frame at a time.
         </p>
       </section>
     </main>

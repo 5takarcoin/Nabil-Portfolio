@@ -29,5 +29,8 @@ function App() {
 // Change description
 // Make gifs for all
 // Resume and Social Links
+// Title
+// Title Image
+// Description
 
 export default App;
