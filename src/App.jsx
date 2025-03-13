@@ -7,18 +7,30 @@ import { Cover } from "./components/Cover";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Contact />
-      <Footer />
-      <Cover />
-      {/* <button className="absolute w-full bottom-0 text-white text-4xl">
+    <div className="">
+      {/* <div className="absolute bgholder -z-30 h-full w-full"></div> */}
+      <div className="max-w-[1024px] m-auto ">
+        {/* <div className="absolute blurry bg-white -z-30 h-full w-full"></div> */}
+
+        <Navbar />
+        <Hero />
+        <About />
+        <Contact />
+        <Footer />
+        <Cover />
+        {/* <button className="absolute w-full bottom-0 text-white text-4xl">
         <FaArrowDown className="m-auto mb-16" />
       </button> */}
-    </>
+      </div>
+    </div>
   );
 }
+// To do
+// Change description
+// Make gifs for all
+// Resume and Social Links
+// Title
+// Title Image
+// Description
 
 export default App;

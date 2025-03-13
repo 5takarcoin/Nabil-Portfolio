@@ -19,3 +19,13 @@
   --font-one: "Belanosima", serif;
   --font-two: "Actu", serif;
 }
+
+.bgholder {
+  background-image: url("../src/assets/bg.avif");
+  filter: blur(10px);
+  opacity: 0.8;
+}
+
+.blurry {
+  filter: blur(50px);
+}
