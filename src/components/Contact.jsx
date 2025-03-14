@@ -8,8 +8,8 @@ import dp from "../assets/beka.png";
 import res from "../assets/resume.pdf";
 import { FiDownload } from "react-icons/fi";
 import { TiSocialLinkedin } from "react-icons/ti";
-import { FaTwitter } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
+import { FaUpwork } from "react-icons/fa6";
 
 export const Contact = () => {
   return (
@@ -182,24 +182,36 @@ export const Contact = () => {
           >
             <h3 className="text-lg lg:text-2xl lg:text-center">Get in touch</h3>
             <div className="flex lg:flex-col justify-between lg:justify-around lg:mt-8 items-center  h-full">
-              <div className="flex gap-4 opacity-30">
-                <button className="hover:text-[#aaaaaa] h-10 w-10 text-3xl relative  text-[#cccccc]">
+              <div className="flex gap-4">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/tawhid-khan-711787356/"
+                  className="hover:text-[#aaaaaa] h-10 w-10 text-3xl relative  text-[#cccccc]"
+                >
                   <span className="absolute h-full flex items-center justify-center top-0 w-full bg-black rounded-full overflow-hidden">
                     <TiSocialLinkedin />
                   </span>
-                </button>
+                </a>
 
-                <button className="hover:text-[#aaaaaa] h-10 w-10 text-2xl relative  text-[#cccccc]">
+                <a
+                  target="_blank"
+                  href="https://www.upwork.com/freelancers/~0173a6cd5d2b2413c9"
+                  className="hover:text-[#aaaaaa] h-10 w-10 text-2xl relative  text-[#cccccc]"
+                >
                   <span className="absolute h-full flex items-center justify-center top-0 w-full bg-black rounded-full overflow-hidden">
-                    <FaTwitter />
+                    <FaUpwork />
                   </span>
-                </button>
+                </a>
 
-                <button className="hover:text-[#aaaaaa] h-10 w-10 text-2xl relative  text-[#cccccc]">
+                <a
+                  target="_blank"
+                  href="mailto:tawhidkhan097@gmail.com"
+                  className="hover:text-[#aaaaaa] h-10 w-10 text-2xl relative  text-[#cccccc]"
+                >
                   <span className="absolute h-full flex items-center justify-center top-0 w-full bg-black rounded-full overflow-hidden">
                     <MdMail />
                   </span>
-                </button>
+                </a>
               </div>
               {/* 
               <button className="hover:text-[#dddddd] flex gap-2 items-center bg-black rounded-full py-2 px-8 text-white">
